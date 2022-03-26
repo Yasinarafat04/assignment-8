@@ -17,7 +17,7 @@ function Cart(props) {
                 setYourProduct(exists)
             }
         } else {
-            document.getElementById('noselection').style.display="flex"
+            document.getElementById('noselection').style.display = "flex"
         }
     }
 
@@ -25,9 +25,9 @@ function Cart(props) {
         setYourProduct('')
         props.reset()
     }
-   
-    const close = ()=>{
-        document.getElementById('noselection').style.display="none"
+
+    const close = () => {
+        document.getElementById('noselection').style.display = "none"
     }
     return (
         <div className='product-cart'>
@@ -52,7 +52,7 @@ function Cart(props) {
                 <img src={yourProduct.image} />
             </div>
             <div id='noselection' className='alert-box fixed-top'>
-                <h1>Sorry Apnar Kopal Kharap Try Agai </h1>
+                <h1>Please try again </h1>
                 <i className="fa-solid fa-face-frown fs-1 text-primary"></i>
                 <i onClick={close} className="fa-solid fa-xmark"></i>
             </div>

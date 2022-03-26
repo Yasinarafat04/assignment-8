@@ -41,7 +41,7 @@ const Home = () => {
         limitedAlert.style.display = 'none'
     }
     return (
-        <> <h1 className='text-center py-3 mt-5 fw-bold'>Online Store</h1>
+        <> <h1 className='text-center py-3 mt-5 fw-bold'>Online Shop</h1>
             <h3 className='text-center mb-4'>Choose 4 Item</h3>
             <div className='container box'>
 
@@ -78,7 +78,7 @@ const Home = () => {
 
 
             <div className='container my-5'>
-            <Bonus />
+                <Bonus />
             </div>
         </>
     )
